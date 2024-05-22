@@ -29,14 +29,24 @@ input[type="button"] {
   font-size: 18px;
   margin: 5px;
   cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+  background-color: #e0d6b9;
 }
 
 #equals {
-  width: 70%;
+  width: 155px;
   background-color: #b9b4c7;
   color: #fff;
   cursor: pointer;
 }
+
+#equals:hover {
+  background-color: #a09aa8;
+}
+
 .title {
   color: white;
 }
